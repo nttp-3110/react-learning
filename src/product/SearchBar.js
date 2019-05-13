@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class SearchBar extends Component {
   constructor(props) {
     super(props);
-    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
-    this.handleInStockChange = this.handleInStockChange.bind(this);
+    this.handleFilterTextChange = this.handleFilterTextChange;
+    this.handleInStockChange = this.handleInStockChange;
   }
   
-  handleFilterTextChange(e) {
+  handleFilterTextChange = e => {
     this.props.onFilterTextChange(e.target.value);
   }
   
-  handleInStockChange(e) {
+  handleInStockChange = e => {
     this.props.onInStockChange(e.target.checked);
   }
   
@@ -38,4 +38,4 @@ export class SearchBar extends Component {
   }
 }
 
-export default SearchBar
+export default SearchBar;

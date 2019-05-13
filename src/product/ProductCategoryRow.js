@@ -13,4 +13,4 @@ export class ProductCategoryRow extends Component {
   }
 }
 
-export default ProductCategoryRow
+export default ProductCategoryRow;

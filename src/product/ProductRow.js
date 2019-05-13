@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export class ProductRow extends Component {
   render() {
@@ -18,4 +18,4 @@ export class ProductRow extends Component {
   }
 }
 
-export default ProductRow
+export default ProductRow;

@@ -47,4 +47,4 @@ export class ProductTable extends Component {
   }
 }
 
-export default ProductTable
+export default ProductTable;
