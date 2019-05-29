@@ -1,6 +1,7 @@
+
 import React from 'react';
-import './App.css';
-import FilterableProductTable from './product/FilterableProductTable';
+import FilterableProductTable from './components/product/FilterableProductTable';
+import Menu from './components/menu/Menu';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   ];
   return (
     <div className="App">
+      <Menu />
       <FilterableProductTable products={PRODUCTS} />
     </div>
   );
