@@ -2,6 +2,7 @@
 import React from 'react';
 import FilterableProductTable from './components/product/FilterableProductTable';
 import Menu from './components/menu/Menu';
+import Clock from './components/clock/Clock';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
     <div className="App">
       <Menu />
       <FilterableProductTable products={PRODUCTS} />
+      <Clock />
+      <Clock />
+      <Clock />
     </div>
   );
 }
